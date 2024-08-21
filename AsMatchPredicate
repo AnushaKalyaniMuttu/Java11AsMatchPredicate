@@ -1,0 +1,11 @@
+Pattern.compile("aba").asMatchPredicate();
+
+
+/*
+jshell>str.test(aabb);
+Output: false
+
+jshell>str.test(aba);
+Output: true
+
+*/
